@@ -1,4 +1,4 @@
-package lambdafunctionalinterface.functionalinterface.pradicate;
+package lambdafunctionalinterface.functionalinterface.predicate;
 
 /**
  * Created by MEHMET on 22.7.2017.

@@ -1,11 +1,11 @@
-package lambdafunctionalinterface.functionalinterface.pradicate;
+package lambdafunctionalinterface.functionalinterface.predicate;
 
 import lambdafunctionalinterface.createnewapi.Person;
 
 /**
  * Created by MEHMET on 22.7.2017.
  */
-public class PradicateFunction {
+public class PredicateFunction {
 
     public static void main(String[] args) {
 
