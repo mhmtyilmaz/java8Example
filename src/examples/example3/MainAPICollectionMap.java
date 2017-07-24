@@ -58,7 +58,6 @@ public class MainAPICollectionMap {
         /**
          * using merge
          */
-
         map2.forEach(
                 (city, people) -> {
                     map1.merge(
@@ -73,7 +72,7 @@ public class MainAPICollectionMap {
 
         System.out.println("Merged Map1");
         map1.forEach(
-                (city,people) -> System.out.println(city + " : " + people)
+                (city, people) -> System.out.println(city + " : " + people)
         );
 
 

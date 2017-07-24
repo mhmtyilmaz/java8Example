@@ -13,14 +13,14 @@ import java.util.List;
 public class MainAPICollection {
 
     public static void main(String[] args) {
-        Person p1 = new Person("John","Bakhi",30);
-        Person p2 = new Person("Tom","Lorna",24);
-        Person p3 = new Person("Jeff","Biatio",21);
-        Person p4 = new Person("Angel","Limna",15);
-        Person p5 = new Person("Erin","Nossa",56);
-        Person p6 = new Person("Ashley","Bil",35);
+        Person p1 = new Person("John", "Bakhi", 30);
+        Person p2 = new Person("Tom", "Lorna", 24);
+        Person p3 = new Person("Jeff", "Biatio", 21);
+        Person p4 = new Person("Angel", "Limna", 15);
+        Person p5 = new Person("Erin", "Nossa", 56);
+        Person p6 = new Person("Ashley", "Bil", 35);
 
-        List<Person> people = new ArrayList(Arrays.asList(p1,p2,p3,p4,p5,p6));
+        List<Person> people = new ArrayList(Arrays.asList(p1, p2, p3, p4, p5, p6));
 
         /**
          * Using RemoveIf
