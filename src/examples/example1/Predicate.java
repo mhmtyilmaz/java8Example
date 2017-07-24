@@ -1,4 +1,4 @@
-package functionalinterface.example1;
+package examples.example1;
 
 /**
  * Created by MEHMET on 23.7.2017.

@@ -87,7 +87,6 @@ public class ExampleOfMap {
                                 }
                         )
         );
-
         System.out.println("Map Merge : " + mapListPerson1);
 
     }
