@@ -31,6 +31,7 @@ public class ExampleOfMap {
          * Map  getOrDefault
          */
         Map<City, List<Person>> map1 = new HashMap<>();
+        map1.put(city1, Arrays.asList(person1));
         System.out.println("Map GetOrDefault : " + map1.getOrDefault(city1, Arrays.asList(person)));
         System.out.println("Map GetOrDefault : " + map1.getOrDefault(city1, Collections.emptyList()));
 

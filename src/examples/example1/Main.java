@@ -16,7 +16,7 @@ public class Main {
 
         // Chaining
         Predicate<String> p3 = p1.and(p2);
-        System.out.println("P3 for Yes : " +p3.test("Yes"));
+        System.out.println("P3 for Yes : " +p3.test("Hello World"));
         System.out.println("P3 for Good morning : " +p3.test("Good Morning"));
         System.out.println("P3 for Good morning gentlemen : " +p3.test("Good Morning gentlemen"));
 
@@ -33,8 +33,8 @@ public class Main {
 
 
         Predicate<Integer> p6 = Predicate.isEqualsTo(1);
-        System.out.println("P5 for Yes: " +p6.test(1));
-        System.out.println("P5 for No: " +p6.test(-1));
+        System.out.println("P6 for 1: " +p6.test(1));
+        System.out.println("P6 for -1: " +p6.test(-1));
 
     }
 }

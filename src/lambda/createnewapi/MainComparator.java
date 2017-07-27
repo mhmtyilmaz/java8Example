@@ -28,10 +28,16 @@ public class MainComparator {
         Person personMan = new Person("Mehmet","Yilmaz",28);
         Person personWomen = new Person("Irem","Yilmaz",25);
 
-        Comparator<Person> cmp = cmpPersonAge.thenComparing(cmpPersonAge);
+        Comparator<Person> cmp = cmpPersonAge.thenComparing(cmpPersonLastName);
 
 
-        Comparator<Person> cmpComp = Comparator.comparing(Person::getLastName).thenComparing(Person::getLastName).thenComparing(Person::getAge);
+        cmp.compare(personMan,personWomen);
+
+
+
+        Comparator<Person> cmpComp = Comparator.comparing(Person::getFirstName)
+                                                .thenComparing(Person::getLastName)
+                                                .thenComparing(Person::getAge);
 
         System.out.println(cmpComp);
 
